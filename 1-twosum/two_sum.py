@@ -7,9 +7,9 @@ class Solution:
         This is two sum demo.
         :param nums: list of number.
         :param target: target number.
-        :return: answer is two value [a. b]
+        :return: answer is two value [i, j]
         """
-        indices = {}
+        indices = {} # use dict same as `indices = dict()` which is mashMap function
         for i in range(0, len(nums), 1):
             indices[nums[i]] = i
 
