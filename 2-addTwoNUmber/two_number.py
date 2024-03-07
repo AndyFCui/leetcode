@@ -9,7 +9,7 @@ from typing import Optional
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         dummy: ListNode = ListNode(-1)
-        carryBit: int = 0
+        carryBit: int = 0 # its only 0 or 1
         cur: ListNode = dummy
 
         while l1 is not None or l2 is not None:
