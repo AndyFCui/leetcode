@@ -9,7 +9,9 @@ class Solution:
         :param target: target number.
         :return: answer is two value [i, j]
         """
-        indices = {} # use dict same as `indices = dict()` which is mashMap function
+        # use dict same as `indices = dict()` which is mashMap function
+        indices = {}
+        
         for i in range(0, len(nums), 1):
             indices[nums[i]] = i
 
